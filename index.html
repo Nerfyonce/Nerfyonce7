@@ -10,11 +10,13 @@
     <div class="container">
         <h1>Generate Voucher Welcome Platinum</h1>
         <form id="voucherForm">
-            <label for="cardNumber">Masukkan Nomor Kartu:</label>
-            <input type="text" id="cardNumber" name="cardNumber" placeholder="Nomor Kartu" required>
+            <div class="form-group">
+                <label for="cardNumber">Masukkan Nomor Kartu:</label>
+                <input type="text" id="cardNumber" name="cardNumber" placeholder="Nomor Kartu" required>
+            </div>
             <button type="submit">Generate Voucher</button>
         </form>
-        <div id="voucherResult"></div>
+        <div id="voucherResult" class="result"></div>
     </div>
 
     <script src="script.js"></script>
